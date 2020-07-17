@@ -1,0 +1,26 @@
+{
+    "name": "changzhong/scheduling",
+    "description": "Task scheduling extension for dcat-admin",
+    "type": "library",
+    "keywords": ["dcat-admin", "extension", "task", "Scheduling"],
+    "homepage": "https://github.com/changzhong/scheduling",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "chang",
+            "email": "632867905@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "dcat/laravel-admin": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dcat\\Admin\\Extension\\Scheduling\\": "src/"
+        },
+         "files": [
+            "src/bootstrap.php"
+        ]
+    }
+}
