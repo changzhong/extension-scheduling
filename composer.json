@@ -1,9 +1,9 @@
 {
-    "name": "changzhong/scheduling",
+    "name": "changzhong/extension-scheduling",
     "description": "Task scheduling extension for dcat-admin",
     "type": "library",
     "keywords": ["dcat-admin", "extension", "task", "Scheduling"],
-    "homepage": "https://github.com/changzhong/scheduling",
+    "homepage": "https://github.com/changzhong/extension-scheduling",
     "license": "MIT",
     "authors": [
         {
